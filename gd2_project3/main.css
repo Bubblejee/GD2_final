@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+}
+.container {
+    position:relative;
+    background-image: url(background1.jpg);
+    background-size:cover;
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;  
+}
+
+.superhero {
+    position: absolute;
+    font-family: bodoni;
+    font-size: 25px;
+    top: 100px;
+    left: 615px;
+    
+}
+
+img {
+    width: 450px;
+    box-shadow: 5px 5px 15px grey;
+}
+.pam {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+.pom {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 850px;
+}
+
+.overlayone {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0px;
+  right: 0;
+  height: 450px;
+  width: 450px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #e5cec1;
+}
+
+.pam:hover .overlayone {
+  opacity: 1;
+}
+
+
+.overlaytwo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0px;
+  right: 0;
+  height: 450px;
+  width: 450px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #e2e1ce;
+}
+
+.pom:hover .overlaytwo {
+  opacity: 1;
+}
+
+
+.text {
+  color: white;
+  font-size: 100px;
+  font-family: 'Kirang Haerang', cursive;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
+

@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+}
+.container {
+    position:relative;
+    background-image: url(background_weakness.jpg);
+    background-size:cover;
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;  
+}
+
+.superhero {
+    position: absolute;
+    font-family: bodoni;
+    font-size: 25px;
+    top: 100px;
+    left: 590px;
+    
+}
+
+img {
+    width: 400px;
+    
+
+}
+.ice {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 250px;
+}
+
+
+.thunderstorm {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 800px;
+}
+
+
+.overlayone {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0px;
+  right: 0;
+  height: 400px;
+  width: 400px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #c0a9ed;
+}
+
+.ice:hover .overlayone {
+  opacity: 1;
+}
+
+
+.overlayfour {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0px;
+  right: 0;
+  height: 400px;
+  width: 400px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #c0a9ed;
+}
+
+.thunderstorm:hover .overlayfour {
+  opacity: 1;
+}
+
+
+.text {
+  color: rebeccapurple;
+  font-size: 40px;
+  font-family: 'Kirang Haerang', cursive;
+  position: relative;
+  top: 30%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  
+  
+}
+
+.subtext {
+  color: white;
+  font-size: 20px;
+  font-family: 'Kirang Haerang', cursive;
+  position: relative;
+  top: 45%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  
+}
+
+
+
+
+

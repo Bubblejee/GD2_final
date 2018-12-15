@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+}
+.container {
+    position:relative;
+    background-image: url(background_superpower.jpg);
+    background-size:cover;
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;  
+}
+
+.superhero {
+    position: absolute;
+    font-family: bodoni;
+    font-size: 25px;
+    top: 100px;
+    left: 590px;
+    
+}
+
+img {
+    width: 300px;
+    
+
+}
+.pyromania {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 50px;
+}
+
+.disintegrate {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 400px;
+}
+
+.incinerate {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 750px;
+}
+
+.molten {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 1100px;
+}
+
+
+.overlayone {
+  position: absolute;
+  top: 15;
+  bottom: 0;
+  left: 0px;
+  right: 0;
+  height: 300px;
+  width: 300px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #e5cec1;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.pyromania:hover .overlayone {
+  opacity: 1;
+}
+
+
+.overlaytwo {
+  position: absolute;
+  top: 15;
+  bottom: 0;
+  left: 0px;
+  right: 0;
+  height: 300px;
+  width: 300px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #e5cec1;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.disintegrate:hover .overlaytwo {
+  opacity: 1;
+}
+
+.overlaythree {
+  position: absolute;
+  top: 15;
+  bottom: 0;
+  left: 0px;
+  right: 0;
+  height: 300px;
+  width: 300px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #e5cec1;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.incinerate:hover .overlaythree {
+  opacity: 1;
+}
+
+.overlayfour {
+  position: absolute;
+  top: 15;
+  bottom: 0;
+  left: 0px;
+  right: 0;
+  height: 300px;
+  width: 300px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #e5cec1;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.molten:hover .overlayfour {
+  opacity: 1;
+}
+
+
+.text {
+  color: coral;
+  font-size: 40px;
+  font-family: 'Kirang Haerang', cursive;
+  position: relative;
+  top: 30%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  
+  
+}
+
+.subtext {
+  color: white;
+  font-size: 20px;
+  font-family: 'Kirang Haerang', cursive;
+  position: relative;
+  top: 45%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  
+}
+
+
+
+
+

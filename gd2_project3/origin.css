@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+.container {
+    position:relative;
+    background-image: url(background_origin.jpg);
+    background-size:cover;
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;  
+}
+
+.superhero {
+    position: absolute;
+    font-family: bodoni;
+    font-size: 25px;
+    top: 100px;
+    left: 590px;
+    
+}
+
+.scroll {
+  position: absolute;
+  top: 250px;
+  left: 370px;
+  background-color: #c9bfda;
+  width: 700px;
+  height: 400px;
+  overflow: scroll;
+  font-size: 25px;
+  font-family: 'Kirang Haerang', cursive;
+}

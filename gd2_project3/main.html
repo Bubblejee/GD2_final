@@ -1,0 +1,119 @@
+<html>
+<head>
+<link rel="stylesheet" href="main.css">
+
+<link rel="stylesheet" href="menu.css">
+
+<link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Bungee+Shade|Creepster|Dokdo|Eater|Fredericka+the+Great|Hanalei+Fill|Kirang+Haerang|Monoton|Nosifer|Nova+Square|Permanent+Marker|Sigmar+One|Skranji|Special+Elite" rel="stylesheet">
+    
+</head>
+<body>
+    
+<div class="container">
+    
+    <a id="menulink">
+    menu</a>
+    
+    <div class="superhero">
+    who's your superhero?
+    </div>
+    
+    <a href="profile.html">
+    <div class="pam">
+    <img src="pam.jpg">
+    <div class="overlayone">
+    
+        <div class="text">PAM</div>
+    
+    </div>    
+    </div>
+    </a>
+    
+    <a href="profile.html#exactline">
+    <div class="pom">
+    <img src="pom.jpg">
+        <div class="overlaytwo">
+    
+        <div class="text">POM</div>
+    
+    </div>
+    </div>
+    </a>
+    
+  
+    
+</div>
+
+    
+<div class="Menu">
+  <ul class="Menu-list" data-offset="10">
+      
+    <a href="main.html">
+    <li class="Menu-list-item" data-offset="24" onclick>
+      Home
+      <span class="Mask"><span>Home</span></span>
+      <span class="Mask"><span>Home</span></span>
+    </li>
+      </a>
+      
+    <a href="profile.html">  
+    <li class="Menu-list-item" data-offset="20" onclick>
+      profile
+      <span class="Mask"><span>profile</span></span>
+      <span class="Mask"><span>profile</span></span>
+    </li>
+      </a>
+    
+      <a href="superpower.html">
+    <li class="Menu-list-item" data-offset="16" onclick>
+      super&nbsp;power
+      <span class="Mask"><span>super&nbsp;power</span></span>
+      <span class="Mask"><span>super&nbsp;power</span></span>
+    </li>
+    </a>      
+     
+    <a href="origin.html">  
+    <li class="Menu-list-item" data-offset="12" onclick>
+      origin&nbsp;story
+      <span class="Mask"><span>origin&nbsp;story</span></span>
+      <span class="Mask"><span>origin&nbsp;story</span></span>
+    </li>
+      </a>
+     <a href="weakness.html"> 
+    <li class="Menu-list-item" data-offset="8" onclick>
+      weakness
+      <span class="Mask"><span>weakness</span></span>
+      <span class="Mask"><span>weakness</span></span>
+    </li>
+    </a>
+     
+      <a href="enemy.html">
+      <li class="Menu-list-item" data-offset="4" onclick>
+      arch&nbsp;enemy
+      <span class="Mask"><span>arch&nbsp;enemy</span></span>
+      <span class="Mask"><span>arch&nbsp;enemy</span></span>
+      </li>
+      </a>
+          
+    </ul>
+    
+</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+ //your javascript here.
+    
+$( document ).ready(function() { //this line initializes jQuery on your page
+ $("#menulink").click(function(){
+   $(".Menu").toggleClass("active");
+ });
+});
+
+</script>
+    
+
+    
+    
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+}
+.container {
+    position:relative;
+    background-image: url(background_profile.jpg);
+    background-size:cover;
+    height: 200vh;
+    overflow: hidden;
+    background-repeat: no-repeat;  
+}
+
+.superheroone {
+    position: absolute;
+    font-family: bodoni;
+    font-size: 25px;
+    top: 100px;
+    left: 635px;
+    
+}
+
+.pamfront {
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Kirang Haerang', cursive;
+    top: 230px;
+    left: 850px;
+    line-height: 2;
+    color: #f57c6f;
+}
+
+.pamback {
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Kirang Haerang', cursive;
+    top: 230px;
+    left: 1000px;
+    line-height: 2;
+}
+
+
+.superherotwo {
+    position: absolute;
+    font-family: bodoni;
+    font-size: 25px;
+    top: 900px;
+    left: 635px;
+    color: white;
+}
+
+.pomfront {
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Kirang Haerang', cursive;
+    top: 1030px;
+    left: 200px;
+    line-height: 2;
+    color: #5674b9;
+}
+
+.pomback {
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Kirang Haerang', cursive;
+    top: 1030px;
+    left: 350px;
+    line-height: 2;
+    color: white;
+}
+
+
+img {
+    width: 750px;
+
+}
+.pam {
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+.pom {
+    position: absolute;
+    margin-top: 850px;
+    margin-left: 750px;
+}
+
+
+
+
+
+
+

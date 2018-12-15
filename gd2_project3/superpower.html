@@ -1,0 +1,154 @@
+<html>
+<head>
+<link rel="stylesheet" href="superpower.css">
+
+<link rel="stylesheet" href="menu.css">
+
+<link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Bungee+Shade|Creepster|Dokdo|Eater|Fredericka+the+Great|Hanalei+Fill|Kirang+Haerang|Monoton|Nosifer|Nova+Square|Permanent+Marker|Sigmar+One|Skranji|Special+Elite" rel="stylesheet">
+    
+</head>
+<body>
+    
+<div class="container">
+    
+    <a id="menulink">
+    menu</a>
+    
+    <div class="superhero">
+    Which power do you want?
+    </div>
+    
+    
+    <div class="pyromania">
+    <img src="pyromania.png">
+    <div class="overlayone">
+       
+        <div class="text">Pyromania
+        </div>
+        
+        <div class="subtext">After casting 4 spells Pam's next offensive spell will stun the target for a short duration
+        </div>
+        
+    </div>    
+    </div>
+    
+    <div class="disintegrate">
+    <img src="disintegrate.png"> 
+    <div class="overlaytwo">
+       
+        <div class="text">Disintegrate
+        </div>
+        
+        <div class="subtext">Pam hurls a Mana infused fireball, dealing damage and refunding the Mana cost if it destroys the target
+        </div>
+        
+    </div>     
+    </div>
+    
+    
+        
+    <div class="incinerate">
+    <img src="incinerate.png">
+        <div class="overlaythree">
+       
+        <div class="text">Incinerate
+        </div>
+        
+        <div class="subtext">Pom casts a blazing cone of fire, dealing damage to all enemies in the area
+        </div>
+        
+    </div>
+    </div>
+    
+    <div class="molten">
+    <img src="molten.png">
+        <div class="overlayfour">
+       
+        <div class="text">Molten
+        </div>
+        
+        <div class="subtext">Pam and Pom increased damage resist and damages enemies who attack with basic attacks
+        </div>
+        
+    </div>
+    </div>
+    
+    
+    
+  
+    
+</div>
+
+    
+<div class="Menu">
+  <ul class="Menu-list" data-offset="10">
+      
+    <a href="main.html">
+    <li class="Menu-list-item" data-offset="24" onclick>
+      Home
+      <span class="Mask"><span>Home</span></span>
+      <span class="Mask"><span>Home</span></span>
+    </li>
+      </a>
+      
+    <a href="profile.html">  
+    <li class="Menu-list-item" data-offset="20" onclick>
+      profile
+      <span class="Mask"><span>profile</span></span>
+      <span class="Mask"><span>profile</span></span>
+    </li>
+      </a>
+    
+      <a href="superpower.html">
+    <li class="Menu-list-item" data-offset="16" onclick>
+      super&nbsp;power
+      <span class="Mask"><span>super&nbsp;power</span></span>
+      <span class="Mask"><span>super&nbsp;power</span></span>
+    </li>
+    </a>      
+     
+    <a href="origin.html">  
+    <li class="Menu-list-item" data-offset="12" onclick>
+      origin&nbsp;story
+      <span class="Mask"><span>origin&nbsp;story</span></span>
+      <span class="Mask"><span>origin&nbsp;story</span></span>
+    </li>
+      </a>
+     <a href="weakness.html"> 
+    <li class="Menu-list-item" data-offset="8" onclick>
+      weakness
+      <span class="Mask"><span>weakness</span></span>
+      <span class="Mask"><span>weakness</span></span>
+    </li>
+    </a>
+     
+      <a href="enemy.html">
+      <li class="Menu-list-item" data-offset="4" onclick>
+      arch&nbsp;enemy
+      <span class="Mask"><span>arch&nbsp;enemy</span></span>
+      <span class="Mask"><span>arch&nbsp;enemy</span></span>
+      </li>
+      </a>
+          
+    </ul>
+    
+</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+ //your javascript here.
+    
+$( document ).ready(function() { //this line initializes jQuery on your page
+ $("#menulink").click(function(){
+   $(".Menu").toggleClass("active");
+ });
+});
+
+</script>
+    
+
+    
+    
+</body>
+
+</html>
